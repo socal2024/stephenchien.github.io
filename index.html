@@ -6,10 +6,10 @@
     <title>Stephen Chien's Projects</title>
     <style>
         body {
-            font-family: sans-serif;
+            font-family: 'Arial', sans-serif; /* A more elegant font */
             margin: 0;
             padding: 0;
-            background-color: #f0f0f0; /* Lighter background for better contrast */
+            background-color: #f0f0f0;
             color: #333;
             display: flex;
             flex-direction: column;
@@ -17,11 +17,12 @@
         }
 
         header {
-            background-color: #2941AB; /* Dark blue header */
+            background-color: #003366; /* Deeper blue */
             color: #fff;
             padding: 20px;
             text-align: center;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            border-bottom: 1px solid #ccc; /* Subtle line below header */
         }
 
         h1 {
@@ -29,27 +30,31 @@
         }
 
         main {
-            display: flex; /* Use flexbox for layout */
+            display: flex;
             flex: 1;
             padding: 20px;
         }
 
         #articles {
-            flex: 2; /* Articles take up more space */
-            padding-right: 20px; /* Add spacing between articles and sidebar */
-            text-align: left; /* Align articles to the left */
+            flex: 2;
+            padding-right: 20px;
+            text-align: left;
+            border-right: 1px solid #ccc; /* Vertical line between articles and sidebar */
         }
 
         #quick-links {
             flex: 1;
-            background-color: #f4f4f4; /* Light background for sidebar */
+            background-color: #f4f4f4;
             padding: 20px;
             border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
 
         #quick-links h2 {
-            color: #2941AB; /* Dark blue heading for sidebar */
+            color: #003366; /* Deeper blue */
+            border-bottom: 1px solid #ccc; /* Line below heading */
+            padding-bottom: 10px;
+            margin-bottom: 15px;
         }
 
         #quick-links ul {
@@ -59,6 +64,8 @@
 
         #quick-links li {
             margin-bottom: 10px;
+            border-bottom: 1px solid #eee; /* Subtle line below each link */
+            padding-bottom: 5px;
         }
 
         #quick-links a {
@@ -67,12 +74,13 @@
         }
 
         footer {
-            background-color: #2941AB; /* Dark blue footer */
+            background-color: #003366; /* Deeper blue */
             color: #fff;
             padding: 10px;
             text-align: center;
             font-size: smaller;
             box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+            border-top: 1px solid #ccc; /* Subtle line above footer */
         }
     </style>
 </head>
@@ -84,7 +92,7 @@
     <main>
         <div id="articles">
             <p>Coming Soon - Stay tuned for some exciting projects!</p>
-            </div>
+        </div>
 
         <div id="quick-links">
             <h2>Quick Links</h2>
